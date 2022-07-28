@@ -4,9 +4,6 @@ function draw_fig()
 global map3d qstart3 qgoal3 waypoints planAlgo
 % figure()
 % clf;
-xlabel('X Coordinate')
-ylabel('Y Coordinate')
-title('Drone Driver Simulation')
 hold on 
 show(map3d)
 scatter3(qstart3(1),qstart3(2),qstart3(3),20,"red","filled")  % Plot Init. Pos.
@@ -37,6 +34,9 @@ elseif isequal(planAlgo,'PRM')
 
 end
 hold off
+xlabel('X Coordinate')
+ylabel('Y Coordinate')
+title('Drone Driver Simulation')
 grid on
 drawnow;
 end

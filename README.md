@@ -17,6 +17,10 @@ The drone follows waypoints while there is no obstacle in the way, then it avoid
 
 It updates the next local waypoint with the help of a sliding window which uses EUclidean distance aswell as shortest change in orientation angle from current orientation.
 
+## Executed runs
+
+Open the Results folder for Matlab figures aswell as screenshots
+
 ## Demo
 
 Run the command in matlab for all 4 path planning algorithms
